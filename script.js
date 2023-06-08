@@ -40,7 +40,26 @@ function mobileResize(){
         img.style.maxWidth = "80vw";
     });
 }
-
+function ipadResize(){
+    console.log("IPAD");
+        nvigator.forEach(nvgtr => {
+            nvgtr.style.minHeight = "10vh";
+        });
+        buttons.forEach(bttn => {
+            bttn.style.height = "5em"
+            bttn.style.fontSize = "1.5em";
+            bttn.style.borderRadius = "5em";
+        });
+        navelement.forEach(element => {
+            element.style.fontSize = "calc(2rem * 1.5)"
+        });
+        
+        logo.forEach(lgo => {
+            lgo.style.maxHeight = "5vh";
+            
+        });
+        
+}
 function pcResize(){
     nvigator.forEach(nvgtr => {
         nvgtr.style.minHeight = null;
@@ -73,9 +92,8 @@ window.addEventListener('load', function(event) {
     if(window.innerHeight/window.innerWidth >= 1.7){
         mobileResize();
     } 
-    else if(window.innerHeight/window.innerWidth >= 0.75){
-        ipadResize();
-    }
+    
+    // else if ipad resize
     else{
         pcResize();
     }
@@ -85,9 +103,7 @@ window.addEventListener('resize', function(event) {
     if(window.innerHeight/window.innerWidth >= 1.7){
         mobileResize();
     } 
-    else if(window.innerHeight/window.innerWidth >= 0.75){
-        ipadResize();
-    }
+    // else if ipad resize
     else{
         pcResize();
     }
