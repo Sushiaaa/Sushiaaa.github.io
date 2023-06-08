@@ -161,25 +161,26 @@ body{
 }
 
 #whitecolor:after{
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  top: -4px;
-  left: -2px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  top: -16px;
+  left: -8px;
   position: relative;
   background-color: #d1d3d1;
   content: '';
   display: inline-block;
   visibility: visible;
   border: 2px solid white;
-  transition: 0.4s;
+  transition: 0.4s; 
+  
 }
 #whitecolor:checked:after{
-  width: 30x;
-  height: 30px;
-  border-radius: 30px;
-  top: -4px;
-  left: -2px;
+  width: 60x;
+  height: 60px;
+  border-radius: 60px;
+  top: -16px;
+  left: -8px;
   position: relative;
   background-color: white;
   content: '';
@@ -187,13 +188,14 @@ body{
   visibility: visible;
   border: 2px solid white;
   transition: 0.4s;
+  
 }
 #blackcolor:after{
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  top: -4px;
-  left: -2px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  top: -16px;
+  left: -8px;
   position: relative;
   background-color: #d1d3d1;
   content: '';
@@ -201,13 +203,14 @@ body{
   visibility: visible;
   border: 2px solid white;
   transition: 0.4s;
+  
 }
 #blackcolor:checked:after{
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  top: -4px;
-  left: -2px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  top: -16px;
+  left: -8px;
   position: relative;
   background-color: black;
   content: '';
@@ -215,13 +218,14 @@ body{
   visibility: visible;
   border: 2px solid white;
   transition: 0.4s;
+ 
 }
 #greencolor:after{
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  top: -4px;
-  left: -2px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  top: -16px;
+  left: -8px;
   position: relative;
   background-color: #d1d3d1;
   content: '';
@@ -229,13 +233,16 @@ body{
   visibility: visible;
   border: 2px solid white;
   transition: 0.4s;
+  
 }
+
 #greencolor:checked:after{
-  width: 30px;
-  height: 30px;
-  border-radius: 30px;
-  top: -4px;
-  left: -2px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  top: -16px;
+  left: -8px;
+ 
   position: relative;
   background-color: #16cc74ff;
   content: '';
