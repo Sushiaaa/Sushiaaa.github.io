@@ -7,7 +7,7 @@
 
    ![Store Page](/readmeimgs/step2.png)
 
-3. Danach https://github.com/Sushiaaa/Sushiaaa.github.io/blob/main/stegioverlay_rplace.user.js öffnen und oben Rechts vom Skript auf "Raw" klicken
+3. Danach https://github.com/Sushiaaa/Sushiaaa.github.io/blob/main/stegioverlay_rplace.user.js öffnen und oben rechts vom Skript auf "Raw" klicken
 
    ![Script](/readmeimgs/step4.png)
 
