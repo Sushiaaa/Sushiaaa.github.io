@@ -2,15 +2,25 @@
 // @name         Stegi Overlay
 // @namespace    http://tampermonkey.net/
 // @version      1
-// @description  Overlay für Stegi :)
+// @description  stegi
 // @author       Sushiaaa
+// @match        https://garlic-bread.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // ==/UserScript==
 
+var overlayImage = null;
 if (window.top !== window.self) {
-    window.addEventListener("load", () => {
-        const overlay = document.createElement("img");
-        overlay.src = `Sushiaaa.github.io/screenoverlay.png?time=${ (new Date()).getTime().toString() }`;
-        overlay.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 4000px;height: 4000px;";
+    window.addEventListener('load', () => {
+        const canvasContainer = document.querySelector("garlic-bread-embed").shadowRoot.querySelector("div.layout").querySelector("garlic-bread-canvas").shadowRoot.querySelector("div.container");
+        overlayImage = document.createElement("img");
+        updateImage();
+        overlayImage.style = `position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 1000px;height: 1000px;`;
+        canvasContainer.appendChild(overlayImage);
     }, false);
 }
+
+function updateImage() {
+    overlayImage.src = "https://sushiaaa.github.io/testimg.png?" + Date.now()
+}
+
+setInterval(function () {overlayImage.src = "https://sushiaaa.github.io/testimg.png?" + Date.now()}, 30000);
