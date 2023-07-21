@@ -7,6 +7,6 @@
 
    ![Store Page](/readmeimgs/step2.png)
 
-3. Danach https://github.com/Sushiaaa/Sushiaaa.github.io/blob/main/stegioverlay_rplace.user.js öffnen und das ganze Skript kopieren
+3. Danach https://github.com/Sushiaaa/Sushiaaa.github.io/blob/raw/main/stegioverlay_rplace.user.js öffnen und das ganze Skript kopieren
 
    ![Script](/readmeimgs/step4.png)
