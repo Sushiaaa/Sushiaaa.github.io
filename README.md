@@ -11,4 +11,6 @@
 
    ![Script](/readmeimgs/step4.png)
 
-4. 
+4. Auf "installieren" oder "Neu installieren" klicken und die Reddit Website aktualisieren
+
+   ![Tampermonkey](/readmeimgs/step5.png)
